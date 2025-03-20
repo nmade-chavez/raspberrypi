@@ -154,7 +154,7 @@ def sendtransactiondata(maintopic,mainproducerid,VIPERPORT,index,preprocesstopic
      rawdataoutput=1
      asynctimeout=120
      timedelay=0
-
+     preprocesslogic='MIN,MAX,COUNT,VARIANCE,OUTLIERS,ANOMPROB'
      jsoncriteria='uid=metadata.dsn,filter:allrecords~\
 subtopics=metadata.property_name~\
 values=datapoint.value~\

@@ -202,7 +202,7 @@ async def startviper():
           except Exception as e:
             print("ERROR:",e)
             continue
-    preporcesslogic='MIN,MAX,COUNT,VARIANCE,OUTLIERS,ANOMPROB'
+#    preporcesslogic='MIN,MAX,COUNT,VARIANCE,OUTLIERS,ANOMPROB'
 async def spawnvipers():
 
     loop.run_until_complete(startviper())
